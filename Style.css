@@ -13,59 +13,44 @@ body
     align-items: center;
     background-color: rgb(171, 46, 175);
 }
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .profile
 {
-    margin-left: -300px;
-    width: 300px;
-    clip-path:circle();
+    width: 25%;
+    border-radius: 150px;
+    padding: 15px;
 }
+
+.profile1{
+    display: flex;
+}
+
 .Name
 {
-    margin-top: -150px;
     padding-left: 5%;
-    font-size: 200%;
+    font-size: 50px;
     font-family: cursive;
 }
 .Numbers
 {
-    margin-left: -25%;
-    padding-left: 0%;
-    padding-top: 10%;
+    display: flex;
+    align-items: center;
+    padding: 25px;
 }
 .individual
 {
-    font-size: 200%;
+    font-size: 25px;
     font-family: cursive;
+    padding: 25px;
 }
-@media (max-width: 474px) and (min-width: 290px)
+@media (max-width: 550px) and (min-width: 290px)
 {
-    *
-    {
-        box-sizing: border-box;
-        margin: 0%;
-        padding: 0%;
-        margin-top: 5px;
-    }
-    .profile
-    {
-        margin-left: -60px;
-        width: 40%;
-        clip-path:circle();
-    }
-    .Name
-    {   
-        margin-bottom: -50px;
-        padding-left: 5px;
-        font-size: 90%;
-        font-family: cursive;
-    }
-    .Numbers
-    {
-        margin-left: -170px;
-    }
-    .individual
-    {
-        font-size: 100%;
-        font-family: cursive;
+    .Name{
+        font-size: 35px;
     }
 }
